@@ -6,6 +6,7 @@ body {
 .hero, .header {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 0 10%;
 }
 
 .header {
@@ -45,7 +46,7 @@ ul {
     flex-wrap: wrap;
 }
 
-button {
+.hero button {
     background-color: #3882F6;
     color: white;
     border: 0;
@@ -103,4 +104,32 @@ a {
 .signature {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.CTA {
+    margin: 48px 25%;
+    padding: 32px 48px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.CTA button {
+    color: white;
+    border: 1px solid white;
+    padding: 8px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.CTA h2 {
+    margin-bottom: 0;
+}
+
+.CTA p {
+    margin-top: 0;
 }
