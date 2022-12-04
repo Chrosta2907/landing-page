@@ -63,3 +63,33 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+.main {
+    text-align: center;
+    margin: 32px 0;
+}
+
+.sections {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.section {
+    max-width: 150px;
+}
+
+.main img {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+  }
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+}
